@@ -1,6 +1,5 @@
 streamlit
 chromadb
-fitz
 sentence-transformers
 google-generativeai
 python-dotenv
