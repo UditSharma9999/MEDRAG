@@ -1,8 +1,7 @@
 streamlit
 chromadb
 fitz
-
+pymupdf
 sentence-transformers
 google-generativeai
 python-dotenv
-pymupdf
