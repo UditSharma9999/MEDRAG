@@ -4,4 +4,3 @@ sentence-transformers
 google-generativeai
 python-dotenv
 pymupdf
-pysqlite3-binary
