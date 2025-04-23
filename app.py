@@ -4,6 +4,12 @@ import streamlit as st
 from rag_engine import process_pdfs, retrieve_context, get_gemini_response
 import os
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
+
 st.set_page_config(page_title="MEDRAG - Medical AI Assistant", layout="wide")
 st.title("🩺 MEDRAG - Medical Document RAG Assistant")
 
