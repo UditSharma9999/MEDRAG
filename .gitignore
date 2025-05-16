@@ -3,3 +3,7 @@ medrag-env/*
 myworld/
 myworld/*
 .env
+slm_disease_finetuned
+slm_medical_finetuned
+.ipynb_checkpoints
+__pycache__

@@ -11,7 +11,9 @@ from dotenv import load_dotenv
 load_dotenv()
 genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
 
-model_gemini = genai.GenerativeModel("gemini-1.5-pro")
+# model_gemini = genai.GenerativeModel("gemini-1.5-pro")
+model_gemini = genai.GenerativeModel("gemini-1.5-flash")
+
 embedding_model = SentenceTransformer("all-MiniLM-L6-v2")
 client = chromadb.Client()
 collection = client.get_or_create_collection(name="medical_papers")
